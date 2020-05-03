@@ -1,6 +1,6 @@
 
-font-family: 'Playfair Display', serif; /*--- Header --*/
-font-family: 'Roboto', sans-serif; /*--- Body --*/
+/* font-family: 'Playfair Display', serif; --- Header -- */
+/* font-family: 'Roboto', sans-serif; --- Body -- */
 
 
 body {
@@ -45,11 +45,14 @@ body {
 .navbar-dark, .navbar-nav, .nav-link:hover {
   color: #c2abee!important;
 }
+/*.navbar .sr-only { (----- FIGURE OUT HOW TO KEEP NAVIGATION LINK COLORED, DEPENDING ON PAGE-----)   
+  color: #c2abee;
+}*/
 
-/*--- Start of Landing Page ---*/
+/*--- Landing --*/
 
 .home-inner {
-  background-image: url(assets\images\code-computer.jpg)!important;
+  background-image: url(...\assets\img\grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg)!important; /*--- cant get to work ---*/
 }
 .caption{
   width: 100%;
@@ -57,7 +60,7 @@ body {
   position: absolute;
   top: 38%;
   z-index: 1;
-  color: white;
+  color: rgb(58, 125, 156);
   text-transform: uppercase;
 }
 .caption h1 {
@@ -68,13 +71,13 @@ body {
   padding-bottom: 1rem;
 }
 
-.caption h3 {
+.caption h2 {
   font-size: 2rem;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
 }
 
-/*--- Portfolio Section ---*/
+/*--- Portfolio Section ---*/  /*--- figure out how to remove link color ---*/
 
 .narrow {
   width: 75%;
@@ -88,10 +91,10 @@ body {
   margin: 0;
   padding: 2rem 0 3.5rem;
   border-radius: 0;
-}
-h3.heading {
+  background-color: rgb(58, 125, 156)!important;
+  }
+h1.heading {
   font-size: 1.9rem;
-  font-weight: 700; /*---bolds text if available---*/
   text-transform: uppercase;
   margin-bottom: 1.9rem;
 }
@@ -101,10 +104,7 @@ h3.heading {
   background-color: #c2abee;
   margin: 0 auto 2rem;
 }
-/* .feature svg.svg-inline--fa { /*--- svg class is the fontawesome class, applied when fontawesom used --*/
-  /* color: #c2abee; */ */
-}
-.feature h3 {
+.feature h2 {
   font-size: 1.3rem;
   text-transform: uppercase;
   padding-bottom: .4rem;
@@ -112,6 +112,12 @@ h3.heading {
 .feature p {
   font-size: 1.1rem;
 }
+h1.portfolio {
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
 
 /*--- About Me Section --*/
 
@@ -119,37 +125,88 @@ h3.heading {
   width: 100%;
   border-radius: 50%; /*--- Makes image a circle it it is perfectly square --*/
 }
-/* blockquote .svg-inline--fa {
-  color: #c2abee;
-  margin: 1rem;
-} */
-/* .about-hr {
-  border-top: .05rem solid #c2abee;
-} */
-
-/*--- Contact Section --*/
-
-section { /*--- Cant get footer to go to bootom --*/
-  background-color: white;
-  color: black;
-  padding: 2rem 0 2rem;
-  margin-top: 1rem;
-  height: 100%!important;
-  top: 38%;
+.caption h2 {
+  font-size: large;
 }
-section h1 {
-  font-size: 1.5rem;
-  margin: 1rem!important;
+/*--- Contact Section --*/ /*--- CENTER BOX AND TEXT!!!! ---*/
+
+section {
+  background-color: rgb(58, 125, 156);
+  background-size: cover;
+  margin-bottom: 0;
+  padding-right: 7%;
+  padding-top: 5%;
+  text-align: center;
 }
-section a {
-  color: black;
+section h2{
+  font-family: Georgia, 'Times New Roman', Times, serif!important;
+  color: white;
 }
 section .svg-inline--fa {
   font-size: 1.6rem;
   margin: 1.2rem .5rem 0 0;
+  color: black;
 }
 section .svg-inline--fa:hover {
-  color: #a984f0!important; /*--- NOT WORKING, STILL HOVERS BLUE; started working but lags --*/
+  color: #a984f0!important;
+}
+.form4 {
+  background-color: rgb(58, 125, 156);
+  background-size: cover;
+  padding-left: 35%;
+}
+
+.top {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: -80px;
+}
+
+.form-bg {
+  background: black;
+  padding: 20px;
+}
+
+.form {
+  background-color: white!important;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.form-control {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #61615e;
+  background: transparent;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+button.btn {
+  display: block;
+  padding: 11px 32px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin: 30px 0px;
 }
 
 
@@ -182,7 +239,7 @@ hr.socket {
   letter-spacing: .15rem;
   padding-bottom: .5rem;
 }
-.caption h3 {
+.caption h2 {
   font-size: 1.2rem;
   padding-bottom: 1.2rem;
 }
@@ -204,22 +261,3 @@ hr.socket {
 
 
 
-
-/*============ BOOTSTRAP BREAK POINTS:
-
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
