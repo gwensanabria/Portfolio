@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio
 Project Title
 One Paragraph of project description goes here
@@ -55,3 +56,8 @@ Acknowledgments
 Hat tip to anyone whose code was used
 Inspiration
 etc
+=======
+<h1>Unit 02 CSS and Bootstrap Homework: Responsive Portfolio</h1>
+
+This reposity holds my portfolio website, of which I will continue to modify and add to throughout this six month course. I bulit this site using Bootstrap as a tool. Also built with responsivness in mind with media queries.
+>>>>>>> 6b02a1d079a4e43623be6c86d7cdfbff71bf9cb5
