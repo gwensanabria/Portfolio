@@ -51,8 +51,8 @@ body {
 
 /*--- Landing --*/
 
-.home-inner {
-  background-image: url(...\assets\img\grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg)!important; /*--- cant get to work ---*/
+.landing .home-wrap .home-inner {
+  background-image: url(../img/grayscale_laptop.jpg)!important; /*--- cant get to work ---*/
 }
 .caption{
   width: 100%;
@@ -78,6 +78,25 @@ body {
 }
 
 /*--- Portfolio Section ---*/  /*--- figure out how to remove link color ---*/
+
+.jumbotron {
+  background-image: url(../img/rain_key.jpg);
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #c2abee;
+  font-size: 2rem!important;
+}
 
 .narrow {
   width: 75%;
@@ -129,6 +148,10 @@ h1.portfolio {
   font-size: large;
 }
 /*--- Contact Section --*/ /*--- CENTER BOX AND TEXT!!!! ---*/
+section {
+  background-image: url(../img/wood.jpg);
+  background-size: cover;
+}
 
 section {
   background-color: rgb(58, 125, 156);
@@ -150,11 +173,11 @@ section .svg-inline--fa {
 section .svg-inline--fa:hover {
   color: #a984f0!important;
 }
-.form4 {
+/* .form4 {
   background-color: rgb(58, 125, 156);
   background-size: cover;
   padding-left: 35%;
-}
+} */
 
 .top {
   padding-top: 100px;

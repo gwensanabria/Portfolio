@@ -1,63 +1,89 @@
-<<<<<<< HEAD
-# Portfolio
-Project Title
-One Paragraph of project description goes here
+# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
-Prerequisites
-What things you need to install the software and how to install them
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+## Directions
 
-Say what the step will be
+First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
 
-Give the example
-And repeat
+* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+* Using Bootstrap, develop your portfolio site with the following items:
 
-Running the tests
-Explain how to run the automated tests for this system
+   * A navbar
 
-Break down into end to end tests
-Explain what these tests test and why
+   * A responsive layout
 
-Give an example
-And coding style tests
-Explain what these tests test and why
+   * Responsive images
 
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
+* The Bootstrap portfolio should minimize the use of media queries.
 
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
 
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+### Hints
 
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
+* Use Bootstrap's grid system (containers, rows, and columns).
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
-=======
-<h1>Unit 02 CSS and Bootstrap Homework: Responsive Portfolio</h1>
+* Use an HTML validation service to ensure that each page has valid HTML.
 
-This reposity holds my portfolio website, of which I will continue to modify and add to throughout this six month course. I bulit this site using Bootstrap as a tool. Also built with responsivness in mind with media queries.
->>>>>>> 6b02a1d079a4e43623be6c86d7cdfbff71bf9cb5
+### Minimum Requirements
+
+* Functional, deployed application
+
+* GitHub repository with README describing the project
+
+* Navbar must be consistent on each page.
+
+* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+
+* All links must work.
+
+* Must use semantic html.
+
+* Each page must have valid and correct HTML. (use a validation service)
+
+* Must contain your personalized information. (bio, name, images, links to social media, etc.)
+
+* Must properly utilize Bootstrap components and grid system.
+
+
+### Bonus
+
+* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
+
+
+## Commit Early and Often
+
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+
+* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+
+* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+
+Follow these guidelines for committing:
+
+* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+
+* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+
+* Test your application before you commit to ensure functionality at every step in the development process.
+
+We would like you to have well over 200 commits by graduation, so commit early and often!
+
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* The URLs of the deployed applications
+
+* The URLs of the GitHub repositories
+
+- - -
+
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
